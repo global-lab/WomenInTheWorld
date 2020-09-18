@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.WinLogo {
+  height: 162px;
+  width: 306px;
+  margin-top: 81vh;
+  position: absolute;
+  z-index: 4000;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
