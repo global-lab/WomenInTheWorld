@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component, Fragment, useState} from 'react';
 import {Map, Marker, TileLayer, Popup} from "react-leaflet";
 import { Sidebar, Tab } from 'react-leaflet-sidetabs';
 import WINLogo from './imgs/WINLogo.png'
@@ -10,7 +10,9 @@ import projectCenters from "./Components/IQPLocations";
 import L from 'leaflet';
 import './App.css';
 import MaterialTable from "material-table";
+import { Button } from "@material-ui/core";
 import Box from "@material-ui/core/Box";
+import colnames from "./Components/Column";
 import {setPosition} from "leaflet/src/dom/DomUtil";
 
 delete L.Icon.Default.prototype._getIconUrl;
@@ -23,34 +25,18 @@ L.Icon.Default.mergeOptions({
 
 var popup = L.popup();
 
-var markerLayers = {};
+let markerLayers = {};
 
-var currentCountry;
+let currentCountry;
 
 
 var WCenters = [];
 let WCenterInfo = [];
-var sponsorInfo = {};
-var filteredInfo = {};
-var currentInfo = {};
+let sponsorInfo = {};
+let filteredInfo = {};
+let currentInfo = {};
 
-const colnames = [
-  {
-    title: 'Title', field: 'Title'
-  },
-  {
-    title: 'Location', field: 'ProjectCenter_y'
-  },
-  {
-    title: 'Sponsor', field: 'Sponsor'
-  },
-  {
-    title: 'Date', field: 'Date'
-  },
-  {
-    title: 'Link', field: 'Link'
-  }
-]
+
 
 
 function FindingProjectCenters() {
@@ -105,6 +91,18 @@ export default class App extends Component{
     this.onOpen("settings");
   }
 
+  handleButtonClick = () => (e) => {
+    WCenterInfo = [];
+    projectCenters.forEach(function (key) {
+      WomenInTheWorld.forEach(function (Center) {
+        if (key.name === Center.ProjectCenter_x){
+          WCenterInfo.push(Center);
+        }
+      });
+    })
+    this.onOpen("settings");
+  }
+
   render() {
     return (
         <Fragment>
@@ -121,7 +119,7 @@ export default class App extends Component{
               <div>
                 <Box mt={2} />
                 <MaterialTable title="IQPs"
-                               columns={colnames}
+                               columns={colnames.map((c) => ({ ...c, tableData: undefined }))}
                                data={WCenterInfo}
                                options={{
                                  search: true,
@@ -129,6 +127,14 @@ export default class App extends Component{
                                  pageSize:5,
                                  pageSizeOptions: [10]
                                }}/>
+                <Box mt={2} />
+                <Button style={{
+                  backgroundColor: "#0074d9",
+                }}
+                        onClick={this.handleButtonClick()}
+                        variant="contained" color="primary">
+                  Clear
+                </Button>
               </div>
             </Tab>
           </Sidebar>
