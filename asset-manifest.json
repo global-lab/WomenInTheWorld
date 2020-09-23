@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/WomenInTheWorld/static/css/main.5f8f9a8f.chunk.css",
-    "main.js": "/WomenInTheWorld/static/js/main.1ae22487.chunk.js",
-    "main.js.map": "/WomenInTheWorld/static/js/main.1ae22487.chunk.js.map",
+    "main.js": "/WomenInTheWorld/static/js/main.79678fe0.chunk.js",
+    "main.js.map": "/WomenInTheWorld/static/js/main.79678fe0.chunk.js.map",
     "runtime-main.js": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js",
     "runtime-main.js.map": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js.map",
     "static/css/2.a4567992.chunk.css": "/WomenInTheWorld/static/css/2.a4567992.chunk.css",
-    "static/js/2.38c65e83.chunk.js": "/WomenInTheWorld/static/js/2.38c65e83.chunk.js",
-    "static/js/2.38c65e83.chunk.js.map": "/WomenInTheWorld/static/js/2.38c65e83.chunk.js.map",
+    "static/js/2.b0cd785b.chunk.js": "/WomenInTheWorld/static/js/2.b0cd785b.chunk.js",
+    "static/js/2.b0cd785b.chunk.js.map": "/WomenInTheWorld/static/js/2.b0cd785b.chunk.js.map",
     "index.html": "/WomenInTheWorld/index.html",
-    "precache-manifest.2ab1d266abeb7b15d9a1cbd3ffa04e22.js": "/WomenInTheWorld/precache-manifest.2ab1d266abeb7b15d9a1cbd3ffa04e22.js",
+    "precache-manifest.a602af53e1bf4c7819b2afe0e3ac348a.js": "/WomenInTheWorld/precache-manifest.a602af53e1bf4c7819b2afe0e3ac348a.js",
     "service-worker.js": "/WomenInTheWorld/service-worker.js",
     "static/css/2.a4567992.chunk.css.map": "/WomenInTheWorld/static/css/2.a4567992.chunk.css.map",
     "static/css/main.5f8f9a8f.chunk.css.map": "/WomenInTheWorld/static/css/main.5f8f9a8f.chunk.css.map",
-    "static/js/2.38c65e83.chunk.js.LICENSE.txt": "/WomenInTheWorld/static/js/2.38c65e83.chunk.js.LICENSE.txt",
+    "static/js/2.b0cd785b.chunk.js.LICENSE.txt": "/WomenInTheWorld/static/js/2.b0cd785b.chunk.js.LICENSE.txt",
     "static/media/WINLogo.png": "/WomenInTheWorld/static/media/WINLogo.93adcfc9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5b24de14.js",
     "static/css/2.a4567992.chunk.css",
-    "static/js/2.38c65e83.chunk.js",
+    "static/js/2.b0cd785b.chunk.js",
     "static/css/main.5f8f9a8f.chunk.css",
-    "static/js/main.1ae22487.chunk.js"
+    "static/js/main.79678fe0.chunk.js"
   ]
 }
