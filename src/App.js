@@ -126,7 +126,8 @@ export default class App extends Component{
                                  exportButton: true,
                                  pageSize:5,
                                  pageSizeOptions: [10]
-                               }}/>
+                               }}
+                style={{ zIndex: 100000}}/>
                 <Box mt={2} />
                 <Button style={{
                   backgroundColor: "#0074d9",
