@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/WomenInTheWorld/static/css/main.5f8f9a8f.chunk.css",
-    "main.js": "/WomenInTheWorld/static/js/main.79678fe0.chunk.js",
-    "main.js.map": "/WomenInTheWorld/static/js/main.79678fe0.chunk.js.map",
+    "main.css": "/WomenInTheWorld/static/css/main.f36be275.chunk.css",
+    "main.js": "/WomenInTheWorld/static/js/main.36accba6.chunk.js",
+    "main.js.map": "/WomenInTheWorld/static/js/main.36accba6.chunk.js.map",
     "runtime-main.js": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js",
     "runtime-main.js.map": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js.map",
     "static/css/2.a4567992.chunk.css": "/WomenInTheWorld/static/css/2.a4567992.chunk.css",
-    "static/js/2.b0cd785b.chunk.js": "/WomenInTheWorld/static/js/2.b0cd785b.chunk.js",
-    "static/js/2.b0cd785b.chunk.js.map": "/WomenInTheWorld/static/js/2.b0cd785b.chunk.js.map",
+    "static/js/2.fe007095.chunk.js": "/WomenInTheWorld/static/js/2.fe007095.chunk.js",
+    "static/js/2.fe007095.chunk.js.map": "/WomenInTheWorld/static/js/2.fe007095.chunk.js.map",
     "index.html": "/WomenInTheWorld/index.html",
-    "precache-manifest.a602af53e1bf4c7819b2afe0e3ac348a.js": "/WomenInTheWorld/precache-manifest.a602af53e1bf4c7819b2afe0e3ac348a.js",
+    "precache-manifest.c67990011e48d7c99830b8788bbccd0a.js": "/WomenInTheWorld/precache-manifest.c67990011e48d7c99830b8788bbccd0a.js",
     "service-worker.js": "/WomenInTheWorld/service-worker.js",
     "static/css/2.a4567992.chunk.css.map": "/WomenInTheWorld/static/css/2.a4567992.chunk.css.map",
-    "static/css/main.5f8f9a8f.chunk.css.map": "/WomenInTheWorld/static/css/main.5f8f9a8f.chunk.css.map",
-    "static/js/2.b0cd785b.chunk.js.LICENSE.txt": "/WomenInTheWorld/static/js/2.b0cd785b.chunk.js.LICENSE.txt",
+    "static/css/main.f36be275.chunk.css.map": "/WomenInTheWorld/static/css/main.f36be275.chunk.css.map",
+    "static/js/2.fe007095.chunk.js.LICENSE.txt": "/WomenInTheWorld/static/js/2.fe007095.chunk.js.LICENSE.txt",
     "static/media/WINLogo.png": "/WomenInTheWorld/static/media/WINLogo.93adcfc9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5b24de14.js",
     "static/css/2.a4567992.chunk.css",
-    "static/js/2.b0cd785b.chunk.js",
-    "static/css/main.5f8f9a8f.chunk.css",
-    "static/js/main.79678fe0.chunk.js"
+    "static/js/2.fe007095.chunk.js",
+    "static/css/main.f36be275.chunk.css",
+    "static/js/main.36accba6.chunk.js"
   ]
 }
