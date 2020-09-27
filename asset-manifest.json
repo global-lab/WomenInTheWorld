@@ -6,20 +6,20 @@
     "runtime-main.js": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js",
     "runtime-main.js.map": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js.map",
     "static/css/2.a4567992.chunk.css": "/WomenInTheWorld/static/css/2.a4567992.chunk.css",
-    "static/js/2.fe007095.chunk.js": "/WomenInTheWorld/static/js/2.fe007095.chunk.js",
-    "static/js/2.fe007095.chunk.js.map": "/WomenInTheWorld/static/js/2.fe007095.chunk.js.map",
+    "static/js/2.c66de072.chunk.js": "/WomenInTheWorld/static/js/2.c66de072.chunk.js",
+    "static/js/2.c66de072.chunk.js.map": "/WomenInTheWorld/static/js/2.c66de072.chunk.js.map",
     "index.html": "/WomenInTheWorld/index.html",
-    "precache-manifest.c67990011e48d7c99830b8788bbccd0a.js": "/WomenInTheWorld/precache-manifest.c67990011e48d7c99830b8788bbccd0a.js",
+    "precache-manifest.8ad37940dc74665a8dd5fa99703a7b42.js": "/WomenInTheWorld/precache-manifest.8ad37940dc74665a8dd5fa99703a7b42.js",
     "service-worker.js": "/WomenInTheWorld/service-worker.js",
     "static/css/2.a4567992.chunk.css.map": "/WomenInTheWorld/static/css/2.a4567992.chunk.css.map",
     "static/css/main.f36be275.chunk.css.map": "/WomenInTheWorld/static/css/main.f36be275.chunk.css.map",
-    "static/js/2.fe007095.chunk.js.LICENSE.txt": "/WomenInTheWorld/static/js/2.fe007095.chunk.js.LICENSE.txt",
+    "static/js/2.c66de072.chunk.js.LICENSE.txt": "/WomenInTheWorld/static/js/2.c66de072.chunk.js.LICENSE.txt",
     "static/media/WINLogo.png": "/WomenInTheWorld/static/media/WINLogo.93adcfc9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.5b24de14.js",
     "static/css/2.a4567992.chunk.css",
-    "static/js/2.fe007095.chunk.js",
+    "static/js/2.c66de072.chunk.js",
     "static/css/main.f36be275.chunk.css",
     "static/js/main.36accba6.chunk.js"
   ]
