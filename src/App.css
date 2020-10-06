@@ -31,8 +31,18 @@
 .WinLogo {
   height: 162px;
   width: 306px;
-  margin-top: 81vh;
+  margin-top: 65vh;
+  margin-left: 100px;
   position: absolute;
+  z-index: 4000;
+}
+
+.WPILogo {
+  height: 162px;
+  width: 200px;
+  margin-top: 79vh;
+  position: absolute;
+  padding: 0;
   z-index: 4000;
 }
 
@@ -43,4 +53,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Header{
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 100px;
+  z-index: 4000;
 }

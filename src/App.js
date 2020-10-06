@@ -2,12 +2,14 @@ import React, {Component, Fragment, useState} from 'react';
 import {Map, Marker, TileLayer, Popup} from "react-leaflet";
 import { Sidebar, Tab } from 'react-leaflet-sidetabs';
 import WINLogo from './imgs/WINLogo.png'
+import WPI from './imgs/WPI_Inst.png';
 import { FiChevronRight } from "react-icons/fi";
 import { FaMapMarkedAlt } from "react-icons/fa"
 import WomenInTheWorld from "./Components/WomenInTheWorldData";
 import 'leaflet/dist/leaflet.css';
 import projectCenters from "./Components/IQPLocations";
 import L from 'leaflet';
+import text from './imgs/text.png';
 import './App.css';
 import MaterialTable from "material-table";
 import { Button } from "@material-ui/core";
@@ -117,6 +119,9 @@ export default class App extends Component{
   render() {
     return (
         <Fragment>
+          <div className="Header">
+            <img src={text} alt="WIN"/>
+          </div>
           <Sidebar
               id="sidebar"
               position="right"
@@ -184,6 +189,9 @@ export default class App extends Component{
           </Sidebar>
           <div className="WinLogo">
             <img src={WINLogo} alt="WIN"/>
+          </div>
+          <div className="WPILogo">
+            <img src={WPI} alt="WIN"/>
           </div>
             <Map style={{ height: "100vh", width: "100%" }} className="mapStyle" center={[0, 0]} zoom={3}>
               <TileLayer
