@@ -34,14 +34,14 @@
   margin-top: 70vh;
   margin-left: 10px;
   position: absolute;
-  z-index: 1500;
+  z-index: 4;
 }
 
 .WPILogo {
   margin-top: 84vh;
   position: absolute;
   padding: 0;
-  z-index: 1500;
+  z-index: 4;
 }
 
 @keyframes App-logo-spin {
@@ -57,5 +57,5 @@
   position: absolute;
   margin-top: 5px;
   margin-left: 100px;
-  z-index: 1500;
+  z-index: 4;
 }
