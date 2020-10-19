@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/WomenInTheWorld/static/css/main.4b90f81c.chunk.css",
-    "main.js": "/WomenInTheWorld/static/js/main.00ee6277.chunk.js",
-    "main.js.map": "/WomenInTheWorld/static/js/main.00ee6277.chunk.js.map",
+    "main.js": "/WomenInTheWorld/static/js/main.a9ed220f.chunk.js",
+    "main.js.map": "/WomenInTheWorld/static/js/main.a9ed220f.chunk.js.map",
     "runtime-main.js": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js",
     "runtime-main.js.map": "/WomenInTheWorld/static/js/runtime-main.5b24de14.js.map",
     "static/css/2.a4567992.chunk.css": "/WomenInTheWorld/static/css/2.a4567992.chunk.css",
     "static/js/2.eb21ce28.chunk.js": "/WomenInTheWorld/static/js/2.eb21ce28.chunk.js",
     "static/js/2.eb21ce28.chunk.js.map": "/WomenInTheWorld/static/js/2.eb21ce28.chunk.js.map",
     "index.html": "/WomenInTheWorld/index.html",
-    "precache-manifest.4ac7859f9acccdd6ff1a8a62a21a0563.js": "/WomenInTheWorld/precache-manifest.4ac7859f9acccdd6ff1a8a62a21a0563.js",
+    "precache-manifest.303ef44a994655e1017c74eab22ddb23.js": "/WomenInTheWorld/precache-manifest.303ef44a994655e1017c74eab22ddb23.js",
     "service-worker.js": "/WomenInTheWorld/service-worker.js",
     "static/css/2.a4567992.chunk.css.map": "/WomenInTheWorld/static/css/2.a4567992.chunk.css.map",
     "static/css/main.4b90f81c.chunk.css.map": "/WomenInTheWorld/static/css/main.4b90f81c.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.a4567992.chunk.css",
     "static/js/2.eb21ce28.chunk.js",
     "static/css/main.4b90f81c.chunk.css",
-    "static/js/main.00ee6277.chunk.js"
+    "static/js/main.a9ed220f.chunk.js"
   ]
 }
