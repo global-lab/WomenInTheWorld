@@ -4,7 +4,7 @@ import { Sidebar, Tab } from 'react-leaflet-sidetabs';
 import WINLogo from './imgs/WINLogo.png'
 import WPI from './imgs/WPI_Inst.png';
 import { FiChevronRight } from "react-icons/fi";
-import { FaMapMarkedAlt } from "react-icons/fa"
+import { FaMapMarkedAlt, FaExternalLinkAlt } from "react-icons/fa"
 import WomenInTheWorld from "./Components/WomenInTheWorldData";
 import 'leaflet/dist/leaflet.css';
 import projectCenters from "./Components/IQPLocations";
