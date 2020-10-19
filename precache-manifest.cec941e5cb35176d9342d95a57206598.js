@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a4f46c00166c103ebf79bd449d05c0b",
+    "revision": "c2e6871dcfa2395a7f0e4348a11f1137",
     "url": "/WomenInTheWorld/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WomenInTheWorld/static/css/2.a4567992.chunk.css"
   },
   {
-    "revision": "1deb8a9c0be67fab6269",
-    "url": "/WomenInTheWorld/static/css/main.2373cedb.chunk.css"
+    "revision": "7a892a199557bfb07aac",
+    "url": "/WomenInTheWorld/static/css/main.3713a9ff.chunk.css"
   },
   {
     "revision": "6a7656d6121ddcbd814b",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/WomenInTheWorld/static/js/2.f2f2b42e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1deb8a9c0be67fab6269",
+    "revision": "7a892a199557bfb07aac",
     "url": "/WomenInTheWorld/static/js/main.0aab3d58.chunk.js"
   },
   {
