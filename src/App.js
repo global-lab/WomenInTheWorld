@@ -84,10 +84,19 @@ export default class App extends Component{
     this.setState({collapsed: true});
   }
   onOpen(id) {
-    this.setState({
-      collapsed: false,
-      selected: id,
-    })
+    if (id === "Externallink") {
+      this.setState({
+        collapsed: true,
+        selected: id,
+      })
+      window.open('https://global-lab.github.io/SubjectTerms/', '_blank')
+    }
+    else {
+      this.setState({
+        collapsed: false,
+        selected: id,
+      })
+    }
   }
 
   handleClick = (country) => (e) => {
@@ -186,6 +195,7 @@ export default class App extends Component{
                 </Grid>
               </div>
             </Tab>
+            <Tab id="Externallink" icon={<FaExternalLinkAlt/>} />
           </Sidebar>
           <div className="WinLogo">
             <img src={WINLogo} alt="WIN"/>
