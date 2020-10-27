@@ -2,7 +2,9 @@ import React, {Component, Fragment, useState} from 'react';
 import {Map, Marker, TileLayer, Popup} from "react-leaflet";
 import { Sidebar, Tab } from 'react-leaflet-sidetabs';
 import WINLogo from './imgs/WINLogo.png'
+import WINLogoSmall from './imgs/WINLogoSmall.png'
 import WPI from './imgs/WPI_Inst.png';
+import WPISmall from './imgs/WPI_Small.png'
 import { FiChevronRight } from "react-icons/fi";
 import { FaMapMarkedAlt, FaExternalLinkAlt } from "react-icons/fa"
 import WomenInTheWorld from "./Components/WomenInTheWorldData";
@@ -200,10 +202,17 @@ export default class App extends Component{
           <div className="WinLogo">
             <img src={WINLogo} alt="WIN"/>
           </div>
+          <div className="WinLogoSmall">
+            <img src={WINLogoSmall} alt="WIN"/>
+          </div>
           <div className="WPILogo">
             <img src={WPI} alt="WIN"/>
           </div>
-            <Map style={{ height: "100vh", width: "100%" }} className="mapStyle" center={[0, 0]} zoom={3}>
+          <div className="WPILogoSmall">
+            <img src={WPISmall} alt="WIN"/>
+          </div>
+
+          <Map style={{ height: "100vh", width: "100%" }} className="mapStyle" center={[0, 0]} zoom={3}>
               <TileLayer
                   attribution='Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
                   url={'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}'}

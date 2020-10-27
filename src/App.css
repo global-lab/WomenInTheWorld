@@ -37,11 +37,28 @@
   z-index: 1999;
 }
 
+.WinLogoSmall {
+  margin-top: 78vh;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 1999;
+  display: none;
+}
+
+
 .WPILogo {
   margin-top: 84vh;
   position: absolute;
   padding: 0;
   z-index: 1999;
+}
+
+.WPILogoSmall {
+  margin-top: 84vh;
+  position: absolute;
+  padding: 0;
+  z-index: 1999;
+  display: none;
 }
 
 @keyframes App-logo-spin {
@@ -58,4 +75,12 @@
   margin-top: 5px;
   margin-left: 100px;
   z-index: 1999;
+}
+
+@media only screen and (max-width: 600px) {
+  .Header { display: none}
+  .WPILogo { display: none }
+  .WinLogo { display: none }
+  .WinLogoSmall{ display: block }
+  .WPILogoSmall { display: block }
 }
